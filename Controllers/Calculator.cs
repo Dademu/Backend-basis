@@ -8,28 +8,24 @@ namespace MyApp.Namespace
     public class CalculatorController : ControllerBase
     {
 
-        [HttpGet("Add")]
         public ActionResult<decimal> Add(decimal num1, decimal num2)
         {
             decimal sum = num1 + num2;
             return Ok(sum);
         }
 
-        [HttpGet("Subtract")]
         public ActionResult<decimal> Subtract(decimal num1, decimal num2)
         {
             decimal difference = num1 - num2;
             return Ok(difference);
         }
 
-        [HttpGet("Multiply")]
         public ActionResult<decimal> Multiply(decimal num1, decimal num2)
         {
             decimal product = num1 * num2;
             return Ok(product);
         }
 
-        [HttpGet("Divide")]
         public ActionResult<decimal> Divide(decimal num1, decimal num2)
         {
             if (num2 == 0)
@@ -41,7 +37,6 @@ namespace MyApp.Namespace
             return Ok(quotient);
         }
 
-        [HttpGet("Modulo")]
         public ActionResult<decimal> Modulo(decimal num1, decimal num2)
         {
             if (num2 == 0)

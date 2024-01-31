@@ -224,3 +224,4 @@ C:\Users\User\Backend basis\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.W
 C:\Users\User\Backend basis\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\User\Backend basis\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\User\Backend basis\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\User\Backend basis\obj\Debug\net8.0\Backend basis.sourcelink.json

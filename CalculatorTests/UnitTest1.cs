@@ -121,7 +121,7 @@ public class UnitTest1
     [Fact]
     public void Divide1()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         decimal result = calculator.Divide(10, 2);
         Assert.Equal(5, result);
     }
@@ -129,7 +129,7 @@ public class UnitTest1
     [Fact]
     public void Divide2()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         decimal result = calculator.Divide(4, 2);
         Assert.Equal(2, result);
     }
@@ -137,14 +137,14 @@ public class UnitTest1
     [Fact]
     public void Divide3()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         decimal result = calculator.Divide(6, 2);
         Assert.Equal(3, result);
     }
     [Fact]
     public void Divide4()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         decimal result = calculator.Divide(8, 4);
         Assert.Equal(4, result);
     }
@@ -152,7 +152,7 @@ public class UnitTest1
     [Fact]
     public void Divide5()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         decimal result = calculator.Divide(10, 2);
         Assert.Equal(5, result);
     }
@@ -167,7 +167,7 @@ public class UnitTest1
     [Fact]
     public void Modulo1()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         decimal result = calculator.Modulo(10, 3);
         Assert.Equal(1, result);
     }
@@ -175,7 +175,7 @@ public class UnitTest1
     [Fact]
     public void Modulo2()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         decimal result = calculator.Modulo(8, 3);
         Assert.Equal(1, result);
     }
@@ -183,7 +183,7 @@ public class UnitTest1
     [Fact]
     public void Modulo3()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         decimal result = calculator.Modulo(6, 3);
         Assert.Equal(0, result);
     }
@@ -191,7 +191,7 @@ public class UnitTest1
     [Fact]
     public void Modulo4()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         decimal result = calculator.Modulo(9, 3);
         Assert.Equal(0, result);
     }
@@ -199,7 +199,7 @@ public class UnitTest1
     [Fact]
     public void Modulo5()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         decimal result = calculator.Modulo(21, 3);
         Assert.Equal(0, result);
     }

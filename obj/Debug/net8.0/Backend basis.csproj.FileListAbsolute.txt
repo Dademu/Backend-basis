@@ -225,3 +225,14 @@ C:\Users\User\Backend basis\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Draw
 C:\Users\User\Backend basis\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\User\Backend basis\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\User\Backend basis\obj\Debug\net8.0\Backend basis.sourcelink.json
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\Backend basis.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\Backend basis.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\Backend basis.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\Backend basis.AssemblyInfo.cs
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\Backend basis.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\Backend basis.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\Backend basis.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\Backend basis.sourcelink.json
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\Backend basis.dll
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\refint\Backend basis.dll
+C:\Users\User\Desktop\Backend-basis\obj\Debug\net8.0\Backend basis.pdb

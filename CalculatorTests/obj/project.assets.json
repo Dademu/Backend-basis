@@ -3774,6 +3774,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "CalculatorLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CalculatorLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CalculatorLibrary.dll": {}
+        }
       }
     }
   },
@@ -11506,11 +11516,17 @@
       "type": "project",
       "path": "../Backend basis.csproj",
       "msbuildProject": "../Backend basis.csproj"
+    },
+    "CalculatorLibrary/1.0.0": {
+      "type": "project",
+      "path": "../CalculatorLibrary/CalculatorLibrary.csproj",
+      "msbuildProject": "../CalculatorLibrary/CalculatorLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Backend basis >= 1.0.0",
+      "CalculatorLibrary >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.4.2",
@@ -11552,6 +11568,9 @@
           "projectReferences": {
             "C:\\Users\\User\\Desktop\\Backend-basis\\Backend basis.csproj": {
               "projectPath": "C:\\Users\\User\\Desktop\\Backend-basis\\Backend basis.csproj"
+            },
+            "C:\\Users\\User\\Desktop\\Backend-basis\\CalculatorLibrary\\CalculatorLibrary.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\Backend-basis\\CalculatorLibrary\\CalculatorLibrary.csproj"
             }
           }
         }

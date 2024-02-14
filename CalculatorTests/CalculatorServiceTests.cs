@@ -8,7 +8,7 @@ namespace CalculatorTests
 
         private CalculatorService _calculatorService;
 
-        public CalculatorServiceTests()
+        public voidCalculatorServiceTests()
         {
             _calculatorService = new CalculatorService();
         }

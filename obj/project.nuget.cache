@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oM2SLR5dJZrif6A5hiPjxPHMtB7KAj1Ow6YGjzaaYHvqK3yvccMxEpTWRK4uR3T3EJymTyHLT/sqmWP3XFxoMg==",
+  "dgSpecHash": "QHLvscZiTSTsV7CSB2DhzL9Ghn3ldMWULs3EnuWHgwKdRd3S1Du7AoQpFT0TMmlTy44jBTbeKlyB/5EeTtC7DQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Backend basis\\Backend basis.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\Backend-basis\\Backend basis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

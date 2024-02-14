@@ -3,9 +3,10 @@ using Xunit;
 
 namespace CalculatorTests
 {
-    public class CalculatorServiceTests
+    public class CalculatorService
     {
-        private readonly CalculatorService _calculatorService;
+
+        private CalculatorService _calculatorService;
 
         public CalculatorServiceTests()
         {

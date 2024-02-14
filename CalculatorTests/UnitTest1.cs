@@ -96,6 +96,29 @@ public class UnitTest1
     }
 
     [Fact]
+    public void Multiply3()
+    {
+        CalculatorSevice calculator = new();
+        decimal result = calculator.Multiply(4, 3);
+        Assert.Equal(12, result);
+    } 
+ [Fact]
+    public void Multiply4()
+    {
+        CalculatorSevice calculator = new();
+        decimal result = calculator.Multiply(2, 2);
+        Assert.Equal(4, result);
+    }
+
+     [Fact]
+    public void Multiply5()
+    {
+        CalculatorSevice calculator = new();
+        decimal result = calculator.Multiply(1, 3);
+        Assert.Equal(3, result);
+    }
+
+    [Fact]
     public void Divide_ShouldReturnCorrectQuotient()
     {
         CalculatorSevice calculator = new CalculatorSevice();

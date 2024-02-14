@@ -101,8 +101,8 @@ public class UnitTest1
         CalculatorSevice calculator = new();
         decimal result = calculator.Multiply(4, 3);
         Assert.Equal(12, result);
-    } 
- [Fact]
+    }
+    [Fact]
     public void Multiply4()
     {
         CalculatorSevice calculator = new();
@@ -110,7 +110,7 @@ public class UnitTest1
         Assert.Equal(4, result);
     }
 
-     [Fact]
+    [Fact]
     public void Multiply5()
     {
         CalculatorSevice calculator = new();
@@ -119,13 +119,44 @@ public class UnitTest1
     }
 
     [Fact]
-    public void Divide_ShouldReturnCorrectQuotient()
+    public void Divide1()
     {
         CalculatorSevice calculator = new CalculatorSevice();
         decimal result = calculator.Divide(10, 2);
         Assert.Equal(5, result);
     }
 
+    [Fact]
+    public void Divide2()
+    {
+        CalculatorSevice calculator = new CalculatorSevice();
+        decimal result = calculator.Divide(4, 2);
+        Assert.Equal(2, result);
+    }
+
+    [Fact]
+    public void Divide3()
+    {
+        CalculatorSevice calculator = new CalculatorSevice();
+        decimal result = calculator.Divide(6, 2);
+        Assert.Equal(3, result);
+    }
+    [Fact]
+    public void Divide4()
+    {
+        CalculatorSevice calculator = new CalculatorSevice();
+        decimal result = calculator.Divide(8, 4);
+        Assert.Equal(4, result);
+    }
+
+    [Fact]
+    public void Divide5()
+    {
+        CalculatorSevice calculator = new CalculatorSevice();
+        decimal result = calculator.Divide(10, 2);
+        Assert.Equal(5, result);
+    }
+    
     [Fact]
     public void Divide_ShouldThrowExceptionWhenDivisorIsZero()
     {

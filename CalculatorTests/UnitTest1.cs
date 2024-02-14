@@ -156,22 +156,53 @@ public class UnitTest1
         decimal result = calculator.Divide(10, 2);
         Assert.Equal(5, result);
     }
-    
+
     [Fact]
     public void Divide_ShouldThrowExceptionWhenDivisorIsZero()
     {
-        CalculatorSevice calculator = new CalculatorSevice();
+        CalculatorSevice calculator = new();
         Assert.Throws<ArgumentException>(() => calculator.Divide(10, 0));
     }
 
     [Fact]
-    public void Modulo_ShouldReturnCorrectRemainder()
+    public void Modulo1()
     {
         CalculatorSevice calculator = new CalculatorSevice();
         decimal result = calculator.Modulo(10, 3);
         Assert.Equal(1, result);
     }
 
+    [Fact]
+    public void Modulo2()
+    {
+        CalculatorSevice calculator = new CalculatorSevice();
+        decimal result = calculator.Modulo(8, 3);
+        Assert.Equal(1, result);
+    }
+
+    [Fact]
+    public void Modulo3()
+    {
+        CalculatorSevice calculator = new CalculatorSevice();
+        decimal result = calculator.Modulo(6, 3);
+        Assert.Equal(0, result);
+    }
+
+    [Fact]
+    public void Modulo4()
+    {
+        CalculatorSevice calculator = new CalculatorSevice();
+        decimal result = calculator.Modulo(9, 3);
+        Assert.Equal(0, result);
+    }
+
+    [Fact]
+    public void Modulo5()
+    {
+        CalculatorSevice calculator = new CalculatorSevice();
+        decimal result = calculator.Modulo(21, 3);
+        Assert.Equal(0, result);
+    }
     [Fact]
     public void Modulo_ShouldThrowExceptionWhenDivisorIsZero()
     {
